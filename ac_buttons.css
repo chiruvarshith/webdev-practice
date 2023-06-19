@@ -1,0 +1,27 @@
+.rounded-button {
+    background-color: rgb(194, 194, 0);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+  }
+  
+  .button2{
+    background-color: antiquewhite;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+  }
+
+  .button3{
+    background-color: antiquewhite;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+
+  }
