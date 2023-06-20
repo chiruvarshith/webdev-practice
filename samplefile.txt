@@ -1,0 +1,182 @@
+Last login: Mon Jun 19 23:42:39 on ttys000
+chiruvarshith@chirus-Air ~ % cd documents
+chiruvarshith@chirus-Air documents % cd webdev-practic
+cd: no such file or directory: webdev-practic
+chiruvarshith@chirus-Air documents % cd webdev-practice 
+chiruvarshith@chirus-Air webdev-practice % ls
+README.md	ac_buttons	getcss		webdev-practice
+chiruvarshith@chirus-Air webdev-practice % ls
+README.md	ac_buttons	getcss		webdev-practice
+chiruvarshith@chirus-Air webdev-practice % code .
+zsh: command not found: code
+chiruvarshith@chirus-Air webdev-practice % code getcss
+zsh: command not found: code
+chiruvarshith@chirus-Air webdev-practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	webdev-practice/
+
+nothing added to commit but untracked files present (use "git add" to track)
+chiruvarshith@chirus-Air webdev-practice % ls
+README.md	ac_buttons	getcss
+chiruvarshith@chirus-Air webdev-practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ac_buttons/
+
+nothing added to commit but untracked files present (use "git add" to track)
+chiruvarshith@chirus-Air webdev-practice % git add .
+chiruvarshith@chirus-Air webdev-practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .DS_Store
+	new file:   ac_buttons/ac_buttons.css
+	new file:   ac_buttons/ac_buttons.html
+
+chiruvarshith@chirus-Air webdev-practice % git commit -m "added new buttons with rounded borders on a single side"
+[main 4f9fbdc] added new buttons with rounded borders on a single side
+ 3 files changed, 34 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 ac_buttons/ac_buttons.css
+ create mode 100644 ac_buttons/ac_buttons.html
+chiruvarshith@chirus-Air webdev-practice % git push
+To https://github.com/chiruvarshith/webdev-practice.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/chiruvarshith/webdev-practice.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+chiruvarshith@chirus-Air webdev-practice % git pull
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 7 (delta 1), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), 1.72 KiB | 881.00 KiB/s, done.
+From https://github.com/chiruvarshith/webdev-practice
+   4b029c8..d077b56  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+chiruvarshith@chirus-Air webdev-practice % git push
+To https://github.com/chiruvarshith/webdev-practice.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/chiruvarshith/webdev-practice.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+chiruvarshith@chirus-Air webdev-practice % git pull
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+chiruvarshith@chirus-Air webdev-practice % cd documents
+cd: no such file or directory: documents
+chiruvarshith@chirus-Air webdev-practice % cd ..
+chiruvarshith@chirus-Air .Trash % cd ..
+chiruvarshith@chirus-Air ~ % cd documents
+chiruvarshith@chirus-Air documents % gh repo clone chiruvarshith/webdev-practice
+Cloning into 'webdev-practice'...
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 14 (delta 1), reused 8 (delta 0), pack-reused 0
+Receiving objects: 100% (14/14), 4.07 KiB | 4.07 MiB/s, done.
+Resolving deltas: 100% (1/1), done.
+chiruvarshith@chirus-Air documents % cd webdev-practice 
+chiruvarshith@chirus-Air webdev-practice % ls
+README.md	getcss
+chiruvarshith@chirus-Air webdev-practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ac_buttons/
+
+nothing added to commit but untracked files present (use "git add" to track)
+chiruvarshith@chirus-Air webdev-practice % git add .
+chiruvarshith@chirus-Air webdev-practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .DS_Store
+	new file:   ac_buttons/ac_buttons.css
+	new file:   ac_buttons/ac_buttons.html
+
+chiruvarshith@chirus-Air webdev-practice % git commit -m "added new buttons with rounded border only on a single side"
+[main c1d30c3] added new buttons with rounded border only on a single side
+ 3 files changed, 34 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 ac_buttons/ac_buttons.css
+ create mode 100644 ac_buttons/ac_buttons.html
+chiruvarshith@chirus-Air webdev-practice % git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.19 KiB | 1.19 MiB/s, done.
+Total 6 (delta 0), reused 2 (delta 0), pack-reused 0
+To https://github.com/chiruvarshith/webdev-practice.git
+   d077b56..c1d30c3  main -> main
+chiruvarshith@chirus-Air webdev-practice % nano hi.txt
+
+  UW PICO 5.09                      File: hi.txt                      Modified  
+
+jai sree ram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
