@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: blueviolet;
+    width: 10vw;
+    font-family: 'Agdasima', sans-serif;
+    height: 100vh;
+    
+}
+.sidebar nav{
+    padding: 25px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 27px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    padding: 33px 0;
+    
+}
+
+.main{
+    background-color: bisque;
+    width: 90vw;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    background-color: blue;
+    height: 75vh;
+    width: 80vw;
+    margin: 102px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devpic img{
+    height: 75vh;
+}
