@@ -82,12 +82,18 @@
     padding: 12px;
 border-radius: 45px;
 background-color: rgb(135, 135, 135);
-color: white;
+color: aquamarine;
 font-weight: bold;
 font-size: 15px;
 margin: 0 10px;
 cursor: pointer;
+transition: color 0.2s;
+transition: background-color 0.2s;
 
+}
+.buttons button:hover{
+    color: rgb(135, 135, 135);
+    background-color: aquamarine;
 }
 
 .devpic img{
