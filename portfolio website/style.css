@@ -7,7 +7,7 @@
 
 
 .sidebar{
-    background-color: blueviolet;
+    background-color: rgb(191, 191, 191);
     width: 10vw;
     font-family: 'Agdasima', sans-serif;
     height: 100vh;
@@ -28,7 +28,7 @@
 }
 
 .main{
-    background-color: bisque;
+   /* background-color: bisque;*/
     width: 90vw;
     
 }
@@ -38,8 +38,8 @@
 }
 
 .infocontainer{
-    background-color: blue;
-    height: 75vh;
+    /*background-color: blue;*/
+    height: 55vh;
     width: 80vw;
     margin: 102px auto;
     display: flex;
@@ -51,8 +51,45 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.hello{
+    font-size: 55px;
+    
+}
+
+.name{
+    font-size: 42px;
+    font-weight: bolder;
+    
+}
+
+.about{
+    font-size: 35px;
+    
+}
+
+.discription{
+    font-size: 28px;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+.buttons button{
+    padding: 12px;
+border-radius: 45px;
+background-color: rgb(135, 135, 135);
+color: white;
+font-weight: bold;
+font-size: 15px;
+margin: 0 10px;
+cursor: pointer;
+
 }
 
 .devpic img{
-    height: 75vh;
+    height: 55vh;
 }
