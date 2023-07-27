@@ -1,27 +1,11 @@
-class App extends React.Component {
-    state = {
-        btn_color: 'button-red'
+function OakAcademy() {
+    let pi = 2;
+    if(true){
+        var pi = 3.14
+        console.log(pi)
     }
-};
-onClick = (event) => {
-    this.setState({
-        btn_color: 'button-grey'
-    })
-}
-render() {
-    return(
-        <div>
-            <button 
-              onClick={this.onClick}
-              className={this.state.btn_color}
-            >
-            Click Me!
-            </button>
-        </div>
-    )
+    pi = 1;
+    console.log(pi)
 }
 
-reactDOM.render(
-    <App />,
-    document.querySelector('#root')
-)
+OakAcademy()
