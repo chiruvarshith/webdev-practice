@@ -77,7 +77,7 @@
 
 .discription{
     font-size: 28px;
-    margin-top: 15px;
+    margin-top: 15px;    
 }
 
 .buttons{
@@ -105,3 +105,4 @@ transition: background-color 0.2s;
 .devpic img{
     height: 55vh;
 }
+
