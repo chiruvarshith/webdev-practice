@@ -4,7 +4,11 @@ import  ReactDOM  from "react-dom";
 
 const App= () => {
     return(
-        <div>Hii There!</div>
+        <div>
+            <label for="name" class="label">Enter email</label>
+            <input id="name" type="text" />
+            <button style={{backgroundColor:'red', color:'white'}}>submit</button>
+        </div>
     )
 }
 
