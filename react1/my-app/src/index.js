@@ -3,11 +3,15 @@ import  ReactDOM  from "react-dom";
 
 
 const App= () => {
+    const style = {text: 'submit'}
+    
     return(
         <div>
-            <label for="name" class="label">Enter email</label>
+            <label htmFor="name" class="label">Enter email</label>
             <input id="name" type="text" />
-            <button style={{backgroundColor:'red', color:'white'}}>submit</button>
+            <button style={{backgroundColor:'red', color:'white'}}>
+                { style.text }
+            </button>
         </div>
     )
 }
