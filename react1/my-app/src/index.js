@@ -6,17 +6,17 @@ const App= () => {
     const style = {text: 'submit'}
     
     return(
-        <div>
-            <label htmFor="name" class="label">Enter email</label>
-            <input id="name" type="text" />
-            <button style={{backgroundColor:'red', color:'white'}}>
-                { style.text }
-            </button>
+        <div className="ui comments">
+            <div className="comment">
+            
+                <a href="/" className="avatar">
+                </a>
+            </div>
         </div>
-    )
+    )   
 }
 
 ReactDOM.render(
-    <App />,
+    
     document.querySelector('#root')
 )
