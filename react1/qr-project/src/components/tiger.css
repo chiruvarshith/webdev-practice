@@ -1,0 +1,19 @@
+/* Tiger.css */
+.tiger-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .info {
+    font-size: 16px;
+  }
+  
+  /* Add any additional mobile-specific styling here */
+  .tiger-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto;    /* Allow the image to maintain its aspect ratio */
+    display: block;  /* Remove any extra spacing around the image */
+  }  

@@ -1,25 +1,28 @@
-import React from "react";
 import Navbar from './components/navbar/navbar'
 import image from './assets/royal-bengal02.png';
 import background from './assets/leaf-background.webp';
 import './index.css'
+import Tiger from "./components/tiger";
+import Elephant from './components/elephant';
+import Leopard from './components/leopard';
+import Home from './components/home';
+import React, { Component } from 'react';
+import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
- 
+
 function App() {
   return (
-    <div className="webpage" >
-      
-      <div className="heading">
-        <h1>Bengal Tiger</h1>
+    <Router>
+<div className="webpage" >
+       <Routes>
+                <Route exact path='tiger' element={< Tiger />}></Route>
+                <Route exact path='/elephant' element={< Elephant />}></Route>
+                <Route exact path='/leopard' element={< Leopard />}></Route>
+                <Route exact path='/' element={< Home/>}></Route>
+        </Routes>
       </div>
-      <div className="image">
-        <img src={image} className="tiger-image"  />
-      </div>
-      <div className="paragraph1">
-      The Bengal tiger is the national animal of India and holds 
-      significant cultural and religious importance in the region. It appears in various Indian myths and legends.
-      </div>
-     </div> 
+    </Router>
+    
       
 
     
