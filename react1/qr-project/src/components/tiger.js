@@ -1,7 +1,7 @@
 import React from 'react';
 import './tiger.css'; // Create a CSS file for styling
 import tiger_image from "../assets/royal-bengal02.png"
-
+import tiger_map from "../assets/tiget_map.png"
 function Tiger() {
   return (
     <div className="tiger-card">
@@ -23,6 +23,8 @@ function Tiger() {
         </p>
 
         <h2>Graphical Distribution</h2>
+      <img src={tiger_map} className='tiget-image'/>
+
         {/* Add graphical distribution information here, you can use images or maps if available. */}
 
         <h2>Population Trend</h2>
