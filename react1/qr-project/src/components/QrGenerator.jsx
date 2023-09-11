@@ -1,16 +1,15 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import QRCode from 'qrcode.react';
 import { useReactToPrint } from 'react-to-print';
 
-function QRCodeGenerator() {
-  const [id, setId] = useState('');
-  const [url, setUrl] = useState('');
+function QRCodeGenerator({ id }) {
+  const [url, setUrl] = useState(`https://zoopark.vercel.app/${id}`);
   const qrCodeRef = useRef();
 
-  const generateQRCode = () => {
-    const websiteUrl = `www.hi/${id}`;
-    setUrl(websiteUrl);
-  };
+  useEffect(() => {
+    // Generate QR code when the component is mounted or when the 'id' prop changes
+    setUrl(`https://zoopark.vercel.app/${id}`);
+  }, [id]);
 
   const handlePrint = useReactToPrint({
     content: () => qrCodeRef.current,
@@ -20,25 +19,14 @@ function QRCodeGenerator() {
     <div>
       <h1>QR Code Generator</h1>
       <div>
-        <input
-          type="text"
-          placeholder="Enter ID"
-          value={id}
-          onChange={(e) => setId(e.target.value)}
-        />
-        <button onClick={generateQRCode}>Generate QR Code</button>
-        {url && (
-          <button onClick={handlePrint}>Download QR Code</button>
-        )}
+        <button onClick={handlePrint}>Download QR Code</button>
       </div>
-      {url && (
-        <div>
-          <h2>Generated QR Code:</h2>
-          <div ref={qrCodeRef}>
-            <QRCode value={url} />
-          </div>
+      <div>
+        <h2>Generated QR Code:</h2>
+        <div ref={qrCodeRef}>
+          <QRCode value={url} />
         </div>
-      )}
+      </div>
     </div>
   );
 }
