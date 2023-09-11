@@ -16,15 +16,14 @@ function QRCodeGenerator({ id }) {
   });
 
   return (
-    <div>
-      <h1>QR Code Generator</h1>
-      <div>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center',  height: '100vh' }}>
+         <div>
         <button onClick={handlePrint}>Download QR Code</button>
       </div>
       <div>
         <h2>Generated QR Code:</h2>
         <div ref={qrCodeRef}>
-          <QRCode value={url} />
+          <QRCode value={url} style={{height:"300px" , width:"300px"}}/>
         </div>
       </div>
     </div>
