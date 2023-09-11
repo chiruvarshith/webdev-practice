@@ -17,9 +17,9 @@ function App() {
     <Router>
 <div className="webpage" >
        <Routes>
-                {/* <Route exact path='tiger' element={< Tiger />}></Route>
+                <Route exact path='tiger' element={< Tiger />}></Route>
                 <Route exact path='/elephant' element={< Elephant />}></Route>
-                <Route exact path='/leopard' element={< Leopard />}></Route> */}
+                <Route exact path='/leopard' element={< Leopard />}></Route>
                 <Route exact path='/form' element={< AnimalForm/>}></Route>
                 <Route exact path='/qr-generator' element={<QRCodeGenerator/>}></Route>
                 <Route exact path='/:id' element={< AnimalDetailsPage/>}></Route>
