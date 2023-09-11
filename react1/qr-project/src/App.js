@@ -8,6 +8,7 @@ import Leopard from './components/leopard';
 import Home from './components/home';
 import React, { Component } from 'react';
 import AnimalDetailsPage from './components/AnimalDetailsPage';
+import QRCodeGenerator from './components/QrGenerator';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
@@ -20,6 +21,7 @@ function App() {
                 <Route exact path='/elephant' element={< Elephant />}></Route>
                 <Route exact path='/leopard' element={< Leopard />}></Route>
                 <Route exact path='/' element={< Home/>}></Route>
+                <Route exact path='/qr-generator' element={<QRCodeGenerator/>}></Route>
                 <Route exact path='/:id' element={< AnimalDetailsPage/>}></Route>
         </Routes>
       </div>
