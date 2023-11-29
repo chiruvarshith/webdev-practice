@@ -48,3 +48,9 @@ switch(day) {
     case 'monday':
         console.log('it')
 }
+
+
+sayhello();
+    function greet(name) {
+        return "hello" + name +"!"
+    }
