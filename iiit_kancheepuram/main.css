@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Gabarito:wght@500&family=Poppins:wght@200;300;400;500;600;700;900&family=Reem+Kufi:wght@400;500;600;700&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    color: rgb(164, 164, 164);
+
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 50vw;
+    background: #1f242d;
+}
+
+
+
+
+
+h1 {
+    font-size: 4.5vw;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 4vw;
+    color: aliceblue;
+}
+
+h3{
+    font-size: 2.25vw;
+    color: bisque;
+}
+
+p{
+    font-size: 2.5vw;
+    color: rgb(169, 169, 169);
+    font-weight: 600;
+    padding-top: 1.5%;
+}
+
+.animate-1 {
+    font-size: 3vw;
+    color: rgb(254, 255, 240);
+}
+
+.animated {
+    font-size: 1.5vw;
+    color: rgb(114,114,114);
+    font-weight: 500;
+}
+
+
+table {
+    
+    border-collapse: collapse;
+    background: #323232;
+    padding: 1vw;
+    max-width: 89vw;
+
+}
+
+th,
+caption,
+td {
+    padding: 1vw;
+    font-size: 1.1vw;
+
+}
+
+th {
+    text-align: left;
+    color: aliceblue;
+    background: #181c23;
+}
+
+tr:nth-of-type(2n) {
+    background: hsl(0 0% 0% / 0.05%);
+}
+
+.nirf {
+    margin-top: 3vw;
+}
+
+.dmlogo {
+    width: 8vw;
+    height: 8vw;
+}
