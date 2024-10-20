@@ -8,7 +8,7 @@ This inclusive TODO list website offers a user-friendly, simple, and easy-to-use
 
 ## Features
 
-- Voice-based input for easy task entry.
+- Voice-based input for easy task entry. by clicking on the input box the voice recognition invokes automatically and whatever user speaks after that is taken as the input.
 - modify existing tasks by delete option to remove tasks.
 - Accessible UI for ease of use across all user groups.
 - language selection drop down to select the language according to the user
