@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    gap: 2vh;
+}
+
+#taskInput{
+    width: 18vw;
+    height: 5vh;
+    font-size: 0.85vw;
+    padding: 0px 0.5vw;
+}
+
+button{
+    padding: 10px 20px;
+    height: 5vh;
+    color: #fff;
+    background: grey;
+    border: none;
+    font-size: 0.9vw;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#taskList{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+li span{
+    padding-left: 1vw;
+}
