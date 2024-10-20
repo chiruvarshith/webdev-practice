@@ -62,3 +62,15 @@ ul li{
 li span{
     padding-left: 1vw;
 }
+
+
+.language-dropdown {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+select {
+    padding: 5px;
+    font-size: 14px;
+}
