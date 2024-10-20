@@ -15,7 +15,16 @@ if('SpeechRecognition' in window || 'webkitSpeechRecognition' in window){
         taskInput.value = translate;
     }
 
-    function addTask
+    function addTask(){
+        let taskText = taskInput.value.trim();
+
+        if(taskText !== ''){
+            let taskItem = document.createElement("li");
+            taskItem.innerHTML = `
+            <span>${taskText}</span><button>Delete</button>
+            `;
+        }
+    }
 
 
 }
