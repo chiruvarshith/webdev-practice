@@ -11,7 +11,7 @@ This inclusive TODO list website offers a user-friendly, simple, and easy-to-use
 - Voice-based input for easy task entry.
 - modify existing tasks by delete option to remove tasks.
 - Accessible UI for ease of use across all user groups.
-- (Demo)language selection drop down to select the language according to the user
+- language selection drop down to select the language according to the user
 
 
 
