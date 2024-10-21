@@ -26,16 +26,25 @@ This inclusive TODO list website offers a user-friendly, simple, and easy-to-use
 
 
 ## Usage
-Adding a Task: Type your task in the input field and click the "Add" button or use the voice input button to dictate your task.
+Usage of Features:
+
+Language Selector:
+The website includes a language selection feature, allowing users to choose their preferred language. This makes the website accessible to people from different linguistic backgrounds, enabling them to use the website in the language they are most comfortable with, enhancing usability and convenience.
+Voice Input:
+The voice input feature allows users to add tasks without needing to type. This is especially useful for people who may have difficulty using a keyboard or touchscreen, such as those who are blind, have mobility issues, or simply prefer using voice commands. The voice input ensures inclusivity and ease of use for everyone.
+Accessible UI:
+The user interface is designed to be simple and intuitive, making it easy to navigate for users of all ages and abilities. Whether someone is tech-savvy or a beginner, the clean and straightforward design ensures a smooth and frustration-free experience.
+Add Task Button:
+The 'Add Task' button provides a clear, easy way for users to input tasks. Whether they’ve used voice input or typed their task manually, this feature streamlines the task-adding process and makes managing the to-do list simple.
+Delete Task Option:
+Users can easily remove tasks from their list once completed or no longer needed using the 'Delete Task' option. This ensures that the task list stays up to date and clutter-free.
+These features combined ensure that the website is highly inclusive, catering to users with diverse needs and making it accessible for everyone.
 
 
-Completing a Task: Click the "Complete" button next to a task to mark it as completed. You can toggle back to incomplete if needed.
+
+<img width="1440" alt="Screenshot 2024-10-22 at 12 11 31 AM" src="https://github.com/user-attachments/assets/cd527625-c04a-4e27-b706-b7e6ffd4902f">
 
 
-Deleting a Task: Click the "Delete" button to remove a task from your list.
-
-
-Select languages from a wide range of languages list present in the drop down according to user convenience.
 
 
 
