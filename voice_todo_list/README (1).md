@@ -30,12 +30,24 @@ Usage of Features:
 
 Language Selector:
 The website includes a language selection feature, allowing users to choose their preferred language. This makes the website accessible to people from different linguistic backgrounds, enabling them to use the website in the language they are most comfortable with, enhancing usability and convenience.
+
+
+
 Voice Input:
 The voice input feature allows users to add tasks without needing to type. This is especially useful for people who may have difficulty using a keyboard or touchscreen, such as those who are blind, have mobility issues, or simply prefer using voice commands. The voice input ensures inclusivity and ease of use for everyone.
+
+
+
 Accessible UI:
 The user interface is designed to be simple and intuitive, making it easy to navigate for users of all ages and abilities. Whether someone is tech-savvy or a beginner, the clean and straightforward design ensures a smooth and frustration-free experience.
+
+
+
 Add Task Button:
 The 'Add Task' button provides a clear, easy way for users to input tasks. Whether they’ve used voice input or typed their task manually, this feature streamlines the task-adding process and makes managing the to-do list simple.
+
+
+
 Delete Task Option:
 Users can easily remove tasks from their list once completed or no longer needed using the 'Delete Task' option. This ensures that the task list stays up to date and clutter-free.
 These features combined ensure that the website is highly inclusive, catering to users with diverse needs and making it accessible for everyone.
